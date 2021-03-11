@@ -1,0 +1,44 @@
+nav img{
+    max-width: 65px;
+    max-height: 65px;
+    object-fit: scale-down;
+    border-radius: 50%;
+}
+main{
+    text-align: center;
+
+}
+#codes{
+   width: 98%; 
+   min-height: 300px;
+   border: 2px solid red;
+   border-radius: 14px;
+   outline: 0px;
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;}
+    #buttons button{
+width: 45%;
+border-radius: 14px;
+border: 0px;
+padding: 12px;
+
+    }
+    #remove{
+        background-color:rgb(255, 30, 30) ;
+        color: white;
+    }
+    #play{
+        background-color:rgb(39, 22, 22) ;
+        color: white;
+    }
+    #title-result{
+        padding: 10px;
+        border-bottom: 2px solid red;
+        margin: 10px 0px;
+        font-weight: bold;
+    }
+    #result{
+        max-width: 100% !important;
+    }
